@@ -77,8 +77,7 @@ $tweaks = @(
 	# "EnableCIMemoryIntegrity",    # "DisableCIMemoryIntegrity",
 	#"DisableScriptHost",            # "EnableScriptHost",
 	#"EnableDotNetStrongCrypto",     # "DisableDotNetStrongCrypto",
-	#"DisableMeltdownCompatFlag", 
-	"EnableMeltdownCompatFlag"    
+	#"DisableMeltdownCompatFlag",	#"EnableMeltdownCompatFlag"    
 
 	### Service Tweaks ###
 	"DisableUpdateMSRT",          # "EnableUpdateMSRT",
@@ -123,7 +122,7 @@ $tweaks = @(
 	"ShowTrayIcons",                # "HideTrayIcons",
 	#"DisableSearchAppInStore",
 	"EnableSearchAppInStore",
-	"DisableNewAppPrompt",          # "EnableNewAppPrompt",
+	#"DisableNewAppPrompt",          # "EnableNewAppPrompt",
 	"SetControlPanelSmallIcons",  # "SetControlPanelLargeIcons",  # "SetControlPanelCategories",
 	# "SetVisualFXPerformance",     # "SetVisualFXAppearance",
 	# "AddENKeyboard",              # "RemoveENKeyboard",
@@ -137,8 +136,10 @@ $tweaks = @(
 	"HideSyncNotifications"         # "ShowSyncNotifications",
 	"HideRecentShortcuts",          # "ShowRecentShortcuts",
 	"SetExplorerThisPC",            # "SetExplorerQuickAccess",
-	"HideThisPCFromDesktop",	# "ShowThisPCOnDesktop",
-	# "ShowUserFolderOnDesktop",    # "HideUserFolderFromDesktop",
+	#"HideThisPCFromDesktop",
+	"ShowThisPCOnDesktop",
+	# "ShowUserFolderOnDesktop",
+	"HideUserFolderFromDesktop",
 	# "HideDesktopFromThisPC",
 	"ShowDesktopInThisPC",
 	# "HideDesktopFromExplorer",
