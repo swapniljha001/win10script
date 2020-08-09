@@ -1,4 +1,10 @@
 ##########
+# Step 1 : Copy this next command
+# Step 2 : Open Command Prompt as Admin
+# Step 3 : Right click and Enter
+
+# powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/swapniljha001/win10script/GTX1050-Patch/win10debloat.ps1')"
+
 # Tweaked Win10 Initial Setup Script
 # Primary Author: Disassembler <disassembler@dasm.cz>
 # Primary Author Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script
