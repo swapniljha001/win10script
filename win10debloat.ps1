@@ -39,7 +39,7 @@ $tweaks = @(
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
 	#"InstallAdobe",
 	#"Install7Zip",
-	"InstallNotepadplusplus",
+	#"InstallNotepadplusplus",
 	#"InstallMediaPlayerClassic",
 
 	### Windows Apps
@@ -79,7 +79,7 @@ $tweaks = @(
 	"DisableDefender",            # "EnableDefender",
 	"DisableDefenderCloud",       # "EnableDefenderCloud",
 	"EnableF8BootMenu",             # "DisableF8BootMenu",
-	#"SetDEPOptOut",                 # "SetDEPOptIn",
+	"SetDEPOptOut",                 # "SetDEPOptIn",
 	# "EnableCIMemoryIntegrity",    # "DisableCIMemoryIntegrity",
 	#"DisableScriptHost",            # "EnableScriptHost",
 	#"EnableDotNetStrongCrypto",     # "DisableDotNetStrongCrypto",
@@ -102,9 +102,10 @@ $tweaks = @(
 	"DisableIndexing",            # "EnableIndexing",
 	#"SetBIOSTimeUTC",             # "SetBIOSTimeLocal",
 	#"DisableHibernation",
-	"EnableHibernation",          # 
+	"EnableHibernation",
 	"EnableSleepButton",		# "DisableSleepButton",         
-	#"DisableSleepTimeout",        # "EnableSleepTimeout",
+	#"DisableSleepTimeout",
+	"EnableSleepTimeout",
 	# "DisableFastStartup",
 	"EnableFastStartup",
 
@@ -127,7 +128,7 @@ $tweaks = @(
 	# "ShowSmallTaskbarIcons",        # "ShowLargeTaskbarIcons",
 	"SetTaskbarCombineWhenFull",    # "SetTaskbarCombineNever",     # "SetTaskbarCombineAlways",
 	"HideTaskbarPeopleIcon",        # "ShowTaskbarPeopleIcon",
-	"ShowTrayIcons",                # "HideTrayIcons",
+	#"ShowTrayIcons",                # "HideTrayIcons",
 	#"DisableSearchAppInStore",
 	"EnableSearchAppInStore",
 	#"DisableNewAppPrompt",          # "EnableNewAppPrompt",
